@@ -22,27 +22,34 @@
 <main>
   <p class="eyebrow">NazWorks</p>
   <h1>VersusDash Privacy Policy</h1>
-  <p class="date">Effective September 26, 2026</p>
+  <p class="date">Effective October 4, 2026</p>
 
   <div class="card">
-    <strong>VersusDash does not collect personal information.</strong>
-    The app has no accounts, advertising, tracking, analytics, purchases, chat, or user-generated content.
+    <strong>VersusDash collects only the game data needed to run hosted races and records.</strong>
+    The app has no accounts, advertising, cross-app tracking, purchases, chat, or user-generated content.
   </div>
 
-  <h2>Local multiplayer</h2>
-  <p>VersusDash uses local-network access so players can join a race hosted by another device or a dedicated game server. Race messages contain temporary player slots, movement input, course state, and results. They do not contain names, email addresses, precise location, advertising identifiers, or contacts.</p>
+  <h2>Local and hosted multiplayer</h2>
+  <p>VersusDash uses network access so players can join a local race or a private hosted room. Race messages contain temporary player slots, movement input, course state, room membership, and results. Hosted services also receive ordinary network information such as an IP address as part of operating an internet connection. VersusDash does not ask for names, email addresses, precise location, advertising identifiers, or contacts.</p>
+
+  <h2>Game records and Human Verified levels</h2>
+  <p>Hosted races use a random installation identifier and short-lived session identifiers to prevent duplicate submissions, show personal bests, and operate scoreboards. Public records use generic racer labels and contain a score, attempts, finish time, level revision, and achievement time. They do not publish an installation or session identifier.</p>
+  <p>When a player finishes a hosted race, the client may send a size-limited movement replay to the game gateway. The gateway immediately replays it against the exact level and shared rules. Raw movement inputs are kept only in memory for that verification and are discarded after acceptance or rejection. The records service retains only the signed result and aggregate verification facts: the level revision and content hash, rules versions, replay digest, finish tick, attempt count, and verification time. These facts let VersusDash report whether the exact level is Human Verified, its fastest reproducible completion, and an aggregate clear rate.</p>
+
+  <h2>Retention and deletion</h2>
+  <p>Private hosted rooms and their short-lived session credentials expire automatically. Operational logs are retained for a limited period for reliability and security. Competitive records and aggregate Human Verified facts are retained while the service operates so scoreboards and level certification remain reproducible. A player can request deletion of records associated with their current installation identifier by contacting NazWorks. Reinstalling or resetting local data creates a new pseudonymous identifier and does not reconnect prior records.</p>
 
   <h2>Information stored on your device</h2>
-  <p>If a player chooses to save a server address, that address is stored locally on the device so the player can reconnect. NazWorks does not receive it. Removing the app removes this locally stored information.</p>
+  <p>Saved server addresses, cosmetic choices, rewards, and the random installation identifier are stored locally so the app can restore them. Removing the app removes this local information, subject to platform backup behavior.</p>
 
   <h2>Children</h2>
-  <p>VersusDash is designed for family play. Because the app does not collect personal information, NazWorks does not knowingly collect personal information from children. Players should only join servers operated by a parent, guardian, or other trusted person.</p>
+  <p>VersusDash is designed for family play and does not ask children for personal information. Hosted game data is pseudonymous and limited to running races, records, and level verification. Players should share private room codes only with a parent, guardian, or other trusted person.</p>
 
   <h2>TestFlight and platform services</h2>
   <p>When a tester installs VersusDash through Apple TestFlight or sends TestFlight feedback, Apple may process device, diagnostic, and feedback information under Apple's own privacy policy. NazWorks receives only the information Apple makes available to the developer for testing and crash diagnosis.</p>
 
   <h2>Changes</h2>
-  <p>If a future VersusDash release begins collecting information, this policy will be updated before that release and will explain the information, purpose, retention, and choices available to players.</p>
+  <p>This policy will be updated before a release materially changes the information VersusDash processes, its purpose, retention, or the choices available to players.</p>
 
   <h2>Contact</h2>
   <p>Questions or privacy requests can be sent to <a href="mailto:feedback@naz.works">feedback@naz.works</a>.</p>
